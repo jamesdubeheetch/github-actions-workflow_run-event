@@ -18,4 +18,4 @@ jobs:
           ref: ${{ github.event.workflow_run.head_branch }}
       - run: git branch
       - run: env
-      - run: echo "hie"
+      - run: echo "hello world"
