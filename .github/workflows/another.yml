@@ -1,5 +1,5 @@
 ---
-name: Preflight
+name: Another
 
 on:
   pull_request:

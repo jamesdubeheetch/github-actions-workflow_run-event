@@ -80,7 +80,7 @@ There is a workaround for this...
 
 Every actions is run with a set of [contexts][github-docs-contexts]. The `github` context holds information about the event that triggered the workflow. This includes the branch that the event was originally triggered from/for: `github.event.workflow_run.head_branch`.
 
-This can be used to check out the origination branch in the action, using the [`actions/checkout`][github-checkout-action] action provided by GitHub.
+This can be used to check out the origination branch in the action, using the [`actions/checkout`][github-checkout-action] action provided by GitHub..
 
 To do this, the Yaml would be:
 
